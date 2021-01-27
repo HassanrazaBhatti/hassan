@@ -1,10 +1,10 @@
-      import React from 'react'
-//import NavigateNextIcon from '@material-ui/icons/NavigateNext';
+import React from 'react';
+// import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 export const Header = () => {
     return (
         <div>
             <a href="./">Services aux individus</a>
-            {/* <NavigateNextIcon /> */}
+            {/* <ArrowForwardIosIcon /> */}
             Verrouiller/deverrouiller Ia biometrie
         </div>
     )

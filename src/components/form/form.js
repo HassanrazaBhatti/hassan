@@ -1,28 +1,26 @@
-import React from 'react';
-
-//Importing Components
-//Style Component
-import { makeStyles } from '@material-ui/core/styles';
+import React from "react";
+import "./form.css";
 import Button from '@material-ui/core/Button';
-const useStyles = makeStyles((theme) => ({
-    root: {
-      '& > *': {
-        margin: theme.spacing(1),
-      },
-    },
-  }));
+
 export const Form = () => {
     return (
-        <div>
-            <Form>
-            <p>Enter IDCS</p>
-            <input type="number" required placeholder="IDCS" className="style"/>
-            <p>Enter Numero the telephone</p>
-            <input type="number" required placeholder="IDCS" className="style"/>
-            <Button variant="contained" color="primary">
-            Primary
+        <div className="form">
+            <div className="first_input">
+                Enter IDCS
+            <input type="number" className="number1" placeholder="000000" />
+            </div>
+            <div className="second_input">
+                Enterez Numerio the telephone
+            <input type="number" className="number2" placeholder="06-4456-000" />
+            </div>
+            <Button variant="contained" color="primary" style={{ margin: "30px 0px 0px 150px" }}>
+                Envoyer OTP
             </Button>
-            </Form>
+            <div className="third_input">
+                Reinsize OTP
+             <input type="password" className="number3" placeholder="******" />
+            </div>
         </div>
+
     );
 }

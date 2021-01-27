@@ -1,0 +1,30 @@
+.footer{
+    padding-top: 50px;
+}
+.button{
+    color: black;
+    background-color: white;
+    border-radius: 0%;
+    border: 2px solid black;
+    margin-top: 60px;
+    margin-left: 18vw;
+    padding: 10px 30px 10px 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+a{
+    font-size: 25px;
+}
+
+input{
+    margin-left: 160px;
+    color: red;
+    padding : 7px 20px 7px 5px;
+    font-size: 22px;
+    width: 150px;
+} 

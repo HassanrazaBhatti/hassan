@@ -1,13 +1,15 @@
 import './App.css';
 import {Header} from "./components/Header/Header";
-import {Form} from "./components/form/form";
 import {Footer} from "./components/footer/footer";
+import {Form} from "./components/form/form";
 function App() {
   return (
     <div className="App">
+      <div style={{paddingLeft : "100px"}}>
       <Header />
       <Form />
-      <Footer />
+     <Footer />
+      </div> 
     </div>
   );
 }
